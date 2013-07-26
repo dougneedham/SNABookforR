@@ -1,17 +1,6 @@
 ## Purpose: Convert Python code from SNA for Startups - Chapter 1
-## Date: 7.15.13
 ## Author: Bryan Shepherd
 ## Email: bryan@programmingr.com
-
-
-
-
-if(!suppressWarnings(require(igraph))) {
-  install.packages("igraph")
-  library(igraph)
-} else {
-  library(igraph)
-}
 
 
 #### Create the formal org chart
